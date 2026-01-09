@@ -1,0 +1,172 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {             
+  font-family: jersey 10, sans-serif;
+  background-color: rgb(178, 149, 242);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+nav {
+    height: 64px;
+  background-image: url('/container/navbar/navbar.png');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1rem;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 48px;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  gap: 16px;
+  text-align: center;
+}
+
+
+nav ul a {
+  display: inline-block;
+
+  background-image: url(/container/navbar/side_pages.png) ;
+
+  width: 188px;
+  height: 64px;
+  padding-top: 14px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: black;
+  font-size: 24px;
+  line-height: 50px;
+
+    font-family: jersey 10, sans-serif;
+  }
+
+  nav ul li a.main {
+
+display: inline-block;
+
+    background-image: url(/container/navbar/main_button.png);
+ 
+    width: 236px;
+  height: 64px;
+ line-height: 45px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  text-decoration: black;
+  font-size: 32px;
+  font-family: jersey 10, sans-serif;
+}
+ nav ul li.watermark {
+    opacity: 0.5;
+    margin-right: auto;
+    padding: center;
+ }
+
+.bodytwo {
+  font-family: jersey 10, sans-serif;
+  background-color: rgb(178, 149, 242);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+.tekrarkart {
+display: flex;
+align-self: center;
+flex-wrap: wrap;
+gap: 3em;
+  
+}
+
+.tekrarbolum {
+  border: 10px solid black;
+  margin-bottom: 2em auto;
+  width: min(75em ,100%);
+  border-image: url(/container/section.png) 40   stretch;
+  background-color: white;
+  border-radius: 40px;
+  padding: min(2em , 15%);
+  box-sizing: border-box;
+  border-width: 20px;
+}
+
+.tekrarfoto {
+  max-width: 100%;
+  border-radius: 1em;
+  object-fit: cover;
+  object-position: left;
+justify-content: left;
+}
+
+.tekrarbaslik {
+  font-size: 2.5rem;
+  justify-content: left;
+}
+
+.tekrartext {
+  flex: 0 1 34em;
+justify-content: center;
+}
+
+.tekrartext h2 {
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.tekrartext p {
+  margin: .75em 0 1em 0;
+  font-size: 2em;
+}
+
+.social {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  gap: 32px;
+  text-align: center;
+   
+}
+
+.hakkimda {
+  border: 10px solid black;
+  margin-bottom: 2em auto;
+  width: min(75em ,100%);
+  border-image: url(/container/section.png) 40   stretch;
+  background-color: white;
+  border-radius: 40px;
+  padding: min(2em , 15%);
+  box-sizing: border-box;
+  border-width: 20px;
+}
+
+
+
+.hakkimda-kart {
+display: flex;
+justify-content: center;
+align-self: center;
+flex-wrap: wrap;
+gap: 3em;
+  
+}
+
+.hakkimda-baslik {
+font-size: 1.5rem;
+}
+
+.hakkimda-Paragraf {
+font-size: 1.5em;
+}
